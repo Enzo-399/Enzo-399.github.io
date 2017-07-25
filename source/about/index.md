@@ -1,5 +1,5 @@
 ---
-title: About|Enzo's Blog
+title: About | Enzo's Blog
 date: 2017-07-24 19:40:11
 ---
 
@@ -32,3 +32,7 @@ date: 2017-07-24 19:40:11
 ---
 ### 弱鸡成长记：<br>
 * 持续成长ing...
+
+---
+<br>
+<center><font size="2" color="white"> 不要小看你自己，王健林，马云，马化腾和你，你们4个的资产足以撼动中国。 </font></center>
