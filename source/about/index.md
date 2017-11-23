@@ -1,6 +1,7 @@
 ---
 title: About | Enzo's Blog
 date: 2017-07-24 19:40:11
+comments: false
 ---
 
 <center>  <font size="6">About Me</font>  </center>

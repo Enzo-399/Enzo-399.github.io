@@ -1,8 +1,8 @@
 ---
 title: Sublime Text3 Build 3143 注册码,附激活教程！
 date: 2017-09-27 19:24:05
-type: 'Sublime 3143 激活码'
-categories: 激活码
+tags:  [激活码,Sublime]
+categories:  激活码
 ---
 
 #### 前两天用 Sublime 看代码的时候提示我有新版本，更新之后就显示要激活。总的来说，Sublime 用来看代码还是很好用的，所以就去百度找了一波，现在找到一个。

@@ -1,7 +1,7 @@
 ---
 title: A+B for Input-Output Practice (VIII)
 date: 2017-10-09 20:33:05
-type: '杭电ACM'
+tags: '杭电ACM'
 categories: ACM
 ---
 
