@@ -4,7 +4,7 @@ date: 2017-09-27 19:24:05
 tags:  [激活码,Sublime]
 categories:  激活码
 ---
-
+----
 #### 前两天用 Sublime 看代码的时候提示我有新版本，更新之后就显示要激活。总的来说，Sublime 用来看代码还是很好用的，所以就去百度找了一波，现在找到一个。
 <font color=#e2e3a1>
 	<center>
@@ -37,3 +37,5 @@ categories:  激活码
 ![About](http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fjxtsyp57dj311y0lcgme.jpg)
 
 ###### *这是我的第一篇博客，有什么写的不好的地方请指出来。*
+
+----
