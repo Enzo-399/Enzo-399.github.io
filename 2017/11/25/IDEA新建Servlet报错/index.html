@@ -121,7 +121,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Tomcat,IDEA,Servlet," />
 
 
 
@@ -132,13 +132,26 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Enzo&#39;s Home">
-<meta property="og:url" content="http://enzo-399.cn/categories/Hexo/index.html">
+<meta name="description" content="用 idea 新建了一个 servlet 结果报错，不能运行，也不能代码提示，然后经过一番操作才知道原来是 Tomcat 的 jar 包的依赖没有导入。报错截图：解决方法： 1、左上角 File -&amp;gt; Project Settings 打开项目的配置文件，也可以直接用快捷键 Ctrl + Alt + Sh">
+<meta name="keywords" content="Tomcat,IDEA,Servlet">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDEA 新建 Servlet 报错">
+<meta property="og:url" content="http://enzo-399.cn/2017/11/25/IDEA新建Servlet报错/index.html">
 <meta property="og:site_name" content="Enzo&#39;s Home">
+<meta property="og:description" content="用 idea 新建了一个 servlet 结果报错，不能运行，也不能代码提示，然后经过一番操作才知道原来是 Tomcat 的 jar 包的依赖没有导入。报错截图：解决方法： 1、左上角 File -&amp;gt; Project Settings 打开项目的配置文件，也可以直接用快捷键 Ctrl + Alt + Shift + S 2、在 Modules 选项卡下的 Dependencies 选项下，">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflwe5e2j311y0lcq5q.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1flufqjt9irj308h09et8t.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fluflwuse6j310x0jkmyi.jpg">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fluflxfa6pj308005et8l.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflxqaa6j30f00e274b.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flufly9pfwj310x0jkwfo.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflyos11j311y0lc0vh.jpg">
+<meta property="og:updated_time" content="2017-11-25T09:11:38.300Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Enzo&#39;s Home">
+<meta name="twitter:title" content="IDEA 新建 Servlet 报错">
+<meta name="twitter:description" content="用 idea 新建了一个 servlet 结果报错，不能运行，也不能代码提示，然后经过一番操作才知道原来是 Tomcat 的 jar 包的依赖没有导入。报错截图：解决方法： 1、左上角 File -&amp;gt; Project Settings 打开项目的配置文件，也可以直接用快捷键 Ctrl + Alt + Shift + S 2、在 Modules 选项卡下的 Dependencies 选项下，">
+<meta name="twitter:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflwe5e2j311y0lcq5q.jpg">
 
 
 
@@ -168,13 +181,13 @@
 
 
 
-  <link rel="canonical" href="http://enzo-399.cn/categories/Hexo/"/>
+  <link rel="canonical" href="http://enzo-399.cn/2017/11/25/IDEA新建Servlet报错/"/>
 
 
 
 
 
-  <title>分类: Hexo | Enzo's Home</title>
+  <title>IDEA 新建 Servlet 报错 | Enzo's Home</title>
   
 
 
@@ -193,7 +206,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <!--自己添加-->
@@ -310,139 +323,213 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Hexo<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/2017/11/25/IDEA新建Servlet报错/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Enzo 399">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/head.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Enzo's Home">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/11/25/Hexo-实现Fork-me-on-Github/" itemprop="url">
-              
-                <span itemprop="name">Hexo 实现 Fork me on Github</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">IDEA 新建 Servlet 报错</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-25T13:54:28+08:00"
-              content="2017-11-25" >
-          11-25
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-25T16:29:51+08:00">
+                2017-11-25
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Tomcat/" itemprop="url" rel="index">
+                    <span itemprop="name">Tomcat</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/25/IDEA新建Servlet报错/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2017/11/25/IDEA新建Servlet报错/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/11/25/IDEA新建Servlet报错/" class="leancloud_visitors" data-flag-title="IDEA 新建 Servlet 报错">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/25/Hexo-页面点击出现桃心效果/" itemprop="url">
-              
-                <span itemprop="name">Hexo 页面点击出现桃心效果</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-25T10:15:48+08:00"
-              content="2017-11-25" >
-          11-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/24/Hexo-添加页面加载动画/" itemprop="url">
-              
-                <span itemprop="name">Hexo 添加页面加载动画</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-24T23:54:19+08:00"
-              content="2017-11-24" >
-          11-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/24/Hexo-关闭文章评论/" itemprop="url">
-              
-                <span itemprop="name">Hexo 关闭文章评论</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-24T17:17:10+08:00"
-              content="2017-11-24" >
-          11-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <hr>
+<p>用 idea 新建了一个 servlet 结果报错，不能运行，也不能代码提示，然后经过一番操作才知道原来是 Tomcat 的 jar 包的依赖没有导入。<br>报错截图：<br><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflwe5e2j311y0lcq5q.jpg" alt="1"><br>解决方法：</p>
+<h3 id="1、左上角-File-gt-Project-Settings-打开项目的配置文件，也可以直接用快捷键-Ctrl-Alt-Shift-S"><a href="#1、左上角-File-gt-Project-Settings-打开项目的配置文件，也可以直接用快捷键-Ctrl-Alt-Shift-S" class="headerlink" title="1、左上角 File -&gt; Project Settings 打开项目的配置文件，也可以直接用快捷键 Ctrl + Alt + Shift + S"></a>1、左上角 <code>File -&gt; Project Settings</code> 打开项目的配置文件，也可以直接用快捷键 <code>Ctrl + Alt + Shift + S</code></h3><p><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1flufqjt9irj308h09et8t.jpg" alt="2"></p>
+<h3 id="2、在-Modules-选项卡下的-Dependencies-选项下，右边有一个加号，具体看下图"><a href="#2、在-Modules-选项卡下的-Dependencies-选项下，右边有一个加号，具体看下图" class="headerlink" title="2、在 Modules 选项卡下的 Dependencies 选项下，右边有一个加号，具体看下图"></a>2、在 Modules 选项卡下的 Dependencies 选项下，右边有一个加号，具体看下图</h3><p><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fluflwuse6j310x0jkmyi.jpg" alt="3"></p>
+<h3 id="3、选-Library-选项"><a href="#3、选-Library-选项" class="headerlink" title="3、选 Library 选项"></a>3、选 Library 选项</h3><p><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fluflxfa6pj308005et8l.jpg" alt="4"></p>
+<h3 id="4、选中下面的-Tomcat-，点-Add-Selected"><a href="#4、选中下面的-Tomcat-，点-Add-Selected" class="headerlink" title="4、选中下面的 Tomcat ，点 Add Selected"></a>4、选中下面的 Tomcat ，点 Add Selected</h3><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflxqaa6j30f00e274b.jpg" alt="5"></p>
+<h3 id="5、然后就可以看到-Tomcat-加入到-Dependencies-里面了，点-Apply-，OK-即可"><a href="#5、然后就可以看到-Tomcat-加入到-Dependencies-里面了，点-Apply-，OK-即可" class="headerlink" title="5、然后就可以看到 Tomcat 加入到 Dependencies 里面了，点 Apply ，OK 即可"></a>5、然后就可以看到 Tomcat 加入到 Dependencies 里面了，点 Apply ，OK 即可</h3><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flufly9pfwj310x0jkwfo.jpg" alt="6"></p>
+<h3 id="6、如果还是不行，重启下-idea-就可以了"><a href="#6、如果还是不行，重启下-idea-就可以了" class="headerlink" title="6、如果还是不行，重启下 idea 就可以了"></a>6、如果还是不行，重启下 idea 就可以了</h3><p> <img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fluflyos11j311y0lc0vh.jpg" alt="7"></p>
+<hr>
 
       
     </div>
+    
+    
+    
 
+    
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      </div>
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Tomcat/" rel="tag"># Tomcat</a>
+          
+            <a href="/tags/IDEA/" rel="tag"># IDEA</a>
+          
+            <a href="/tags/Servlet/" rel="tag"># Servlet</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/25/localhost-1099-is-already-in-use/" rel="next" title="localhost:1099 is already in use">
+                <i class="fa fa-chevron-left"></i> localhost:1099 is already in use
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -450,6 +537,17 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -470,8 +568,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -545,6 +652,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、左上角-File-gt-Project-Settings-打开项目的配置文件，也可以直接用快捷键-Ctrl-Alt-Shift-S"><span class="nav-number">1.</span> <span class="nav-text">1、左上角 File -> Project Settings 打开项目的配置文件，也可以直接用快捷键 Ctrl + Alt + Shift + S</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、在-Modules-选项卡下的-Dependencies-选项下，右边有一个加号，具体看下图"><span class="nav-number">2.</span> <span class="nav-text">2、在 Modules 选项卡下的 Dependencies 选项下，右边有一个加号，具体看下图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、选-Library-选项"><span class="nav-number">3.</span> <span class="nav-text">3、选 Library 选项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、选中下面的-Tomcat-，点-Add-Selected"><span class="nav-number">4.</span> <span class="nav-text">4、选中下面的 Tomcat ，点 Add Selected</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、然后就可以看到-Tomcat-加入到-Dependencies-里面了，点-Apply-，OK-即可"><span class="nav-number">5.</span> <span class="nav-text">5、然后就可以看到 Tomcat 加入到 Dependencies 里面了，点 Apply ，OK 即可</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、如果还是不行，重启下-idea-就可以了"><span class="nav-number">6.</span> <span class="nav-text">6、如果还是不行，重启下 idea 就可以了</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -679,6 +802,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
@@ -725,6 +852,30 @@
 
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Enzo-399',
+            repo: 'Enzo-399.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '87d662b538cbc920c8c74994cbf0b527056de9ea',
+            
+                client_id: 'f05826946023dab855dc'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 
