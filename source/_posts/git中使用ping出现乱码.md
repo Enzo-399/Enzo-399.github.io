@@ -1,5 +1,5 @@
 ---
-title: git 中使用 ping 出现乱码
+title: Git 中使用 ping 出现乱码
 date: 2017-11-24 14:45:41
 tags: [Git,乱码]
 categories: Git
