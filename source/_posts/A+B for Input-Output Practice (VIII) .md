@@ -43,32 +43,32 @@ For each group of input integers you should output their sum in one line, and yo
 
   
 示例代码：  
-
-    #include<stdio.h>
-    int main(){
-	    // n 表示输入的个数
-		// a 表示每个 n 对应的输入个数 
-		// i 计数器 
-		// b 加减运算的数字 
-		// sum 和 
-		int n,a,i,b,sum;
-		scanf("%d",&n);
-		for(i=1;i<=n;i++){
-			scanf("%d",&a);
-			sum=0;
-			while(a){
-				scanf("%d",&b);
-				sum+=b;
-				a--;
-			}
-			if(i!=n){  // 本题要点，要做到最后一个输出时没有换行 
-				printf("%d\n\n",sum);
-			}else{
-				printf("%d\n",sum);
-			}
+```C
+#include<stdio.h>
+int main(){
+	// n 表示输入的个数
+	// a 表示每个 n 对应的输入个数 
+	// i 计数器 
+	// b 加减运算的数字 
+	// sum 和 
+	int n,a,i,b,sum;
+	scanf("%d",&n);
+	for(i=1;i<=n;i++){
+		scanf("%d",&a);
+		sum=0;
+		while(a){
+			scanf("%d",&b);
+			sum+=b;
+			a--;
 		}
-		return 0;
+		if(i!=n){  // 本题要点，要做到最后一个输出时没有换行 
+			printf("%d\n\n",sum);
+		}else{
+			printf("%d\n",sum);
+		}
 	}
-
+	return 0;
+}
+```
 ###### *欢迎大家访问我的博客，有什么写的不对的地方请指出来。*
 ----

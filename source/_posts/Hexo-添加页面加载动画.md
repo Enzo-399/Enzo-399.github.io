@@ -1,7 +1,7 @@
 ---
 title: Hexo 添加页面加载动画
 date: 2017-11-24 23:54:19
-tags: [Hexo]
+tags: [Hexo,Next]
 categories: Hexo
 ---
 ----

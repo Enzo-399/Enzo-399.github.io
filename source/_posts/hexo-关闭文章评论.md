@@ -1,7 +1,7 @@
 ---
 title: hexo 关闭文章评论
 date: 2017-11-24 17:17:10
-tags: [hexo,评论]
+tags: [Hexo]
 categories: Hexo
 ---
 ----

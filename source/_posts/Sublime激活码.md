@@ -6,7 +6,7 @@ categories:  激活码
 ---
 ----
 #### 前两天用 Sublime 看代码的时候提示我有新版本，更新之后就显示要激活。总的来说，Sublime 用来看代码还是很好用的，所以就去百度找了一波，现在找到一个。
-<font color=#e2e3a1>
+<font color=#3333ff>
 	<center>
 		—– BEGIN LICENSE —–  
 		TwitterInc  
