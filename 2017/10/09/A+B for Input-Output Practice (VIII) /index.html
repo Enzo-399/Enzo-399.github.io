@@ -140,7 +140,7 @@
 <meta property="og:site_name" content="Enzo&#39;s Home">
 <meta property="og:description" content="Time Limit : 2000/1000ms (Java/Other)Memory Limit : 65536/32768K (Java/Other)Total Submission(s) : 262Accepted Submission(s) : 73   Problem DescriptionYour task is to calculate the sum of some intege">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-24T16:48:46.919Z">
+<meta property="og:updated_time" content="2017-11-25T03:43:39.588Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="A+B for Input-Output Practice (VIII)">
 <meta name="twitter:description" content="Time Limit : 2000/1000ms (Java/Other)Memory Limit : 65536/32768K (Java/Other)Total Submission(s) : 262Accepted Submission(s) : 73   Problem DescriptionYour task is to calculate the sum of some intege">
@@ -455,33 +455,8 @@
 <h3 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h3><blockquote>
 <p>lcy</p>
 </blockquote>
-<p>示例代码：  </p>
-<pre><code>#include&lt;stdio.h&gt;
-int main(){
-    // n 表示输入的个数
-    // a 表示每个 n 对应的输入个数 
-    // i 计数器 
-    // b 加减运算的数字 
-    // sum 和 
-    int n,a,i,b,sum;
-    scanf(&quot;%d&quot;,&amp;n);
-    for(i=1;i&lt;=n;i++){
-        scanf(&quot;%d&quot;,&amp;a);
-        sum=0;
-        while(a){
-            scanf(&quot;%d&quot;,&amp;b);
-            sum+=b;
-            a--;
-        }
-        if(i!=n){  // 本题要点，要做到最后一个输出时没有换行 
-            printf(&quot;%d\n\n&quot;,sum);
-        }else{
-            printf(&quot;%d\n&quot;,sum);
-        }
-    }
-    return 0;
-}
-</code></pre><h6 id="欢迎大家访问我的博客，有什么写的不对的地方请指出来。"><a href="#欢迎大家访问我的博客，有什么写的不对的地方请指出来。" class="headerlink" title="欢迎大家访问我的博客，有什么写的不对的地方请指出来。"></a><em>欢迎大家访问我的博客，有什么写的不对的地方请指出来。</em></h6><hr>
+<p>示例代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">// n 表示输入的个数</span></span><br><span class="line">	<span class="comment">// a 表示每个 n 对应的输入个数 </span></span><br><span class="line">	<span class="comment">// i 计数器 </span></span><br><span class="line">	<span class="comment">// b 加减运算的数字 </span></span><br><span class="line">	<span class="comment">// sum 和 </span></span><br><span class="line">	<span class="keyword">int</span> n,a,i,b,sum;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a);</span><br><span class="line">		sum=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">while</span>(a)&#123;</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;b);</span><br><span class="line">			sum+=b;</span><br><span class="line">			a--;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(i!=n)&#123;  <span class="comment">// 本题要点，要做到最后一个输出时没有换行 </span></span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"%d\n\n"</span>,sum);</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,sum);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h6 id="欢迎大家访问我的博客，有什么写的不对的地方请指出来。"><a href="#欢迎大家访问我的博客，有什么写的不对的地方请指出来。" class="headerlink" title="欢迎大家访问我的博客，有什么写的不对的地方请指出来。"></a><em>欢迎大家访问我的博客，有什么写的不对的地方请指出来。</em></h6><hr>
 
       
     </div>
@@ -623,7 +598,7 @@ int main(){
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -645,7 +620,7 @@ int main(){
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
