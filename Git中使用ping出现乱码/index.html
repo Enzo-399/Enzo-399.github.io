@@ -121,7 +121,7 @@
 
 
 
-  <meta name="keywords" content="Tomcat,端口占用," />
+  <meta name="keywords" content="Git,乱码," />
 
 
 
@@ -132,23 +132,24 @@
 
 
 
-<meta name="description" content="前两天写 Javaweb 的时候，项目刚开始编译，发现有问题就把它强制结束了，改完问题再次运行的时候，就出现了下面的情况：下面给出此问题的解决办法。 1、打开CMD，并输入 netstat –ano（打开 CMD 快捷键为 win + R 在弹出的‘运行’窗口里面输入 cmd，win 键为键盘左下角一个 Windows">
-<meta name="keywords" content="Tomcat,端口占用">
+<meta name="description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、">
+<meta name="keywords" content="Git,乱码">
 <meta property="og:type" content="article">
-<meta property="og:title" content="localhost:1099 is already in use">
-<meta property="og:url" content="http://enzo-399.cn/localhost-1099-is-already-in-use.html">
+<meta property="og:title" content="Git 中使用 ping 出现乱码">
+<meta property="og:url" content="http://enzo-399.cn/Git中使用ping出现乱码/index.html">
 <meta property="og:site_name" content="Enzo&#39;s Home">
-<meta property="og:description" content="前两天写 Javaweb 的时候，项目刚开始编译，发现有问题就把它强制结束了，改完问题再次运行的时候，就出现了下面的情况：下面给出此问题的解决办法。 1、打开CMD，并输入 netstat –ano（打开 CMD 快捷键为 win + R 在弹出的‘运行’窗口里面输入 cmd，win 键为键盘左下角一个 Windows 标志的键） 2、端口被 PID (进程号) 为5300的程序占用，接下来我们">
+<meta property="og:description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、选中 Text ，修改 Character set 为 GBK 即可。我的之前">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1flue30llenj308v0243yh.jpg">
-<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flue30zccxj30ii0cwaag.jpg">
-<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flue31biy5j30ib03at8l.jpg">
-<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flue31q6ivj30kz0im75k.jpg">
-<meta property="og:updated_time" content="2017-11-25T08:31:04.472Z">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m0sn79j30mr0cx3z3.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m17z6fj30au091mxc.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m1kdc4j30au0913yo.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m23qfaj30n70d5wfn.jpg">
+<meta property="og:updated_time" content="2017-11-25T09:13:09.204Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="localhost:1099 is already in use">
-<meta name="twitter:description" content="前两天写 Javaweb 的时候，项目刚开始编译，发现有问题就把它强制结束了，改完问题再次运行的时候，就出现了下面的情况：下面给出此问题的解决办法。 1、打开CMD，并输入 netstat –ano（打开 CMD 快捷键为 win + R 在弹出的‘运行’窗口里面输入 cmd，win 键为键盘左下角一个 Windows 标志的键） 2、端口被 PID (进程号) 为5300的程序占用，接下来我们">
-<meta name="twitter:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1flue30llenj308v0243yh.jpg">
+<meta name="twitter:title" content="Git 中使用 ping 出现乱码">
+<meta name="twitter:description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、选中 Text ，修改 Character set 为 GBK 即可。我的之前">
+<meta name="twitter:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg">
 
 
 
@@ -178,13 +179,13 @@
 
 
 
-  <link rel="canonical" href="http://enzo-399.cn/localhost-1099-is-already-in-use.html"/>
+  <link rel="canonical" href="http://enzo-399.cn/Git中使用ping出现乱码/"/>
 
 
 
 
 
-  <title>localhost:1099 is already in use | Enzo's Home</title>
+  <title>Git 中使用 ping 出现乱码 | Enzo's Home</title>
   
 
 
@@ -334,7 +335,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/localhost-1099-is-already-in-use.html">
+    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/Git中使用ping出现乱码/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Enzo 399">
@@ -351,7 +352,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">localhost:1099 is already in use</h1>
+          <h1 class="post-title" itemprop="name headline">Git 中使用 ping 出现乱码</h1>
         
 
         <div class="post-meta">
@@ -363,8 +364,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-25T15:34:59+08:00">
-                2017-11-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-24T14:45:41+08:00">
+                2017-11-24
               </time>
             
 
@@ -386,8 +387,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Tomcat/" itemprop="url" rel="index">
-                    <span itemprop="name">Tomcat</span>
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -404,8 +405,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/localhost-1099-is-already-in-use.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/localhost-1099-is-already-in-use.html" itemprop="commentsCount"></span>
+                <a href="/Git中使用ping出现乱码/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/Git中使用ping出现乱码/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -413,7 +414,7 @@
 
           
           
-             <span id="/localhost-1099-is-already-in-use.html" class="leancloud_visitors" data-flag-title="localhost:1099 is already in use">
+             <span id="/Git中使用ping出现乱码/" class="leancloud_visitors" data-flag-title="Git 中使用 ping 出现乱码">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -445,12 +446,11 @@
 
       
         <hr>
-<p>前两天写 Javaweb 的时候，项目刚开始编译，发现有问题就把它强制结束了，改完问题再次运行的时候，就出现了下面的情况：<br><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1flue30llenj308v0243yh.jpg" alt="1"><br>下面给出此问题的解决办法。</p>
-<h3 id="1、打开CMD，并输入-netstat-–ano"><a href="#1、打开CMD，并输入-netstat-–ano" class="headerlink" title="1、打开CMD，并输入 netstat –ano"></a>1、打开<code>CMD</code>，并输入 <code>netstat –ano</code></h3><p>（打开 CMD 快捷键为 <code>win + R</code> 在弹出的‘运行’窗口里面输入 <code>cmd</code>，win 键为键盘左下角一个 Windows 标志的键）<br><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flue30zccxj30ii0cwaag.jpg" alt="2"></p>
-<h3 id="2、端口被-PID-进程号-为5300的程序占用，接下来我们找到这个进程把它结束就可以了"><a href="#2、端口被-PID-进程号-为5300的程序占用，接下来我们找到这个进程把它结束就可以了" class="headerlink" title="2、端口被 PID (进程号) 为5300的程序占用，接下来我们找到这个进程把它结束就可以了"></a>2、端口被 PID (进程号) 为5300的程序占用，接下来我们找到这个进程把它结束就可以了</h3><p>（你的PID可能跟我的不同）</p>
-<h3 id="3、接着在-cmd-下面输入-tasklist-找到-5300-号进程，可以看到是被-java-exe-占用了"><a href="#3、接着在-cmd-下面输入-tasklist-找到-5300-号进程，可以看到是被-java-exe-占用了" class="headerlink" title="3、接着在 cmd 下面输入 tasklist 找到 5300 号进程，可以看到是被 java.exe 占用了"></a>3、接着在 cmd 下面输入 <code>tasklist</code> 找到 5300 号进程，可以看到是被 java.exe 占用了</h3><p>（如果 tasklist 显示的太多可以用 <code>tasklist|findstr &quot;5300&quot;</code> 来代替）<br><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flue31biy5j30ib03at8l.jpg" alt="3"></p>
-<h3 id="4、快捷键-Ctrl-Shift-Esc-打开任务管理器，结束该进程即可"><a href="#4、快捷键-Ctrl-Shift-Esc-打开任务管理器，结束该进程即可" class="headerlink" title="4、快捷键 Ctrl + Shift + Esc 打开任务管理器，结束该进程即可"></a>4、快捷键 <code>Ctrl + Shift + Esc</code> 打开任务管理器，结束该进程即可</h3><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flue31q6ivj30kz0im75k.jpg" alt="4"></p>
-<h3 id="5、再次运行-Tomcat-，就不会提示-localhost-1099-is-already-in-use-了"><a href="#5、再次运行-Tomcat-，就不会提示-localhost-1099-is-already-in-use-了" class="headerlink" title="5、再次运行 Tomcat ，就不会提示 localhost:1099 is already in use 了"></a>5、再次运行 Tomcat ，就不会提示 localhost:1099 is already in use 了</h3><hr>
+<p>因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：<br><br><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg" alt="1"><br>然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。</p>
+<h3 id="1、在-git-窗口鼠标右键，选择-options-选项"><a href="#1、在-git-窗口鼠标右键，选择-options-选项" class="headerlink" title="1、在 git 窗口鼠标右键，选择 options 选项"></a>1、在 git 窗口鼠标右键，选择 options 选项</h3><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m0sn79j30mr0cx3z3.jpg" alt="2"></p>
+<h3 id="2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。"><a href="#2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。" class="headerlink" title="2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。"></a>2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。</h3><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m17z6fj30au091mxc.jpg" alt="3"><br><br>更改之后分别点击 Apply 和 Save 即可：<br><br><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m1kdc4j30au0913yo.jpg" alt="4"></p>
+<h3 id="3、再试一下-ping-："><a href="#3、再试一下-ping-：" class="headerlink" title="3、再试一下 ping ："></a>3、再试一下 ping ：</h3><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m23qfaj30n70d5wfn.jpg" alt="5"></p>
+<hr>
 
       
     </div>
@@ -479,9 +479,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Tomcat/" rel="tag"># Tomcat</a>
+            <a href="/tags/Git/" rel="tag"># Git</a>
           
-            <a href="/tags/端口占用/" rel="tag"># 端口占用</a>
+            <a href="/tags/乱码/" rel="tag"># 乱码</a>
           
         </div>
       
@@ -494,8 +494,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Hexo-实现Fork-me-on-Github.html" rel="next" title="Hexo 实现 Fork me on Github">
-                <i class="fa fa-chevron-left"></i> Hexo 实现 Fork me on Github
+              <a href="/A+B for Input-Output Practice (VIII) /" rel="next" title="A+B for Input-Output Practice (VIII)">
+                <i class="fa fa-chevron-left"></i> A+B for Input-Output Practice (VIII)
               </a>
             
           </div>
@@ -504,8 +504,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/IDEA新建Servlet报错.html" rel="prev" title="IDEA 新建 Servlet 报错">
-                IDEA 新建 Servlet 报错 <i class="fa fa-chevron-right"></i>
+              <a href="/Hexo-关闭文章评论/" rel="prev" title="Hexo 关闭文章评论">
+                Hexo 关闭文章评论 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -665,7 +665,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、打开CMD，并输入-netstat-–ano"><span class="nav-number">1.</span> <span class="nav-text">1、打开CMD，并输入 netstat –ano</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、端口被-PID-进程号-为5300的程序占用，接下来我们找到这个进程把它结束就可以了"><span class="nav-number">2.</span> <span class="nav-text">2、端口被 PID (进程号) 为5300的程序占用，接下来我们找到这个进程把它结束就可以了</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、接着在-cmd-下面输入-tasklist-找到-5300-号进程，可以看到是被-java-exe-占用了"><span class="nav-number">3.</span> <span class="nav-text">3、接着在 cmd 下面输入 tasklist 找到 5300 号进程，可以看到是被 java.exe 占用了</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、快捷键-Ctrl-Shift-Esc-打开任务管理器，结束该进程即可"><span class="nav-number">4.</span> <span class="nav-text">4、快捷键 Ctrl + Shift + Esc 打开任务管理器，结束该进程即可</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、再次运行-Tomcat-，就不会提示-localhost-1099-is-already-in-use-了"><span class="nav-number">5.</span> <span class="nav-text">5、再次运行 Tomcat ，就不会提示 localhost:1099 is already in use 了</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、在-git-窗口鼠标右键，选择-options-选项"><span class="nav-number">1.</span> <span class="nav-text">1、在 git 窗口鼠标右键，选择 options 选项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。"><span class="nav-number">2.</span> <span class="nav-text">2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、再试一下-ping-："><span class="nav-number">3.</span> <span class="nav-text">3、再试一下 ping ：</span></a></li></ol></div>
             
 
           </div>
