@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-bounce.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+  <link rel="manifest" href="/images/manifest.json">
+
+
+
+
+  <meta name="keywords" content="系统," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="看到很多人不会重装系统，然后让我装的话我也没时间，写篇博客吧，下次可以直接丢链接了。/滑稽在这里首先要感谢 I Tell You 的站长，不知道他在这个网站有没有赚钱，但是确实是一直在维护，当然你如果介意可以去官网下原版镜像。（官网下过一次就放弃了，操作太麻烦了）在这个网站下载 PE 工具箱 点我下载PE我都是在这个网">
+<meta name="keywords" content="系统">
+<meta property="og:type" content="article">
+<meta property="og:title" content="重装系统 (小白版)">
+<meta property="og:url" content="http://enzo-399.cn/重装系统-小白版/index.html">
+<meta property="og:site_name" content="Enzo&#39;s Home">
+<meta property="og:description" content="看到很多人不会重装系统，然后让我装的话我也没时间，写篇博客吧，下次可以直接丢链接了。/滑稽在这里首先要感谢 I Tell You 的站长，不知道他在这个网站有没有赚钱，但是确实是一直在维护，当然你如果介意可以去官网下原版镜像。（官网下过一次就放弃了，操作太麻烦了）在这个网站下载 PE 工具箱 点我下载PE我都是在这个网站下镜像 点我下载镜像 1、制作 PE 启动盘1.1、去上面的网站下载自己电脑">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw3nwznj311y0kl75p.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw4og75j311u0ko0tx.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw5ro5oj30fk09q3yw.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw6cdlfj30fy0a4my9.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw72rtwj30fy0a43zl.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw7ia5pj30fy0a4dgn.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazvz0949j311y0lcdl7.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fmazw05yy5j311y0lcn11.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw1kmcrj303205q3yw.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw2lhgzj30k906ewes.jpg">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fmazvyib48j31dn0q7aby.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazvzor0yj30qu0lhwhk.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fmbhf52soxj30i70c23zg.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw25plpj30g70efab3.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw384exj30z70fxjsn.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw49kpoj30g60eigmy.jpg">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fmazw578g3j30i80dhq43.jpg">
+<meta property="og:updated_time" content="2017-12-10T03:57:26.239Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="重装系统 (小白版)">
+<meta name="twitter:description" content="看到很多人不会重装系统，然后让我装的话我也没时间，写篇博客吧，下次可以直接丢链接了。/滑稽在这里首先要感谢 I Tell You 的站长，不知道他在这个网站有没有赚钱，但是确实是一直在维护，当然你如果介意可以去官网下原版镜像。（官网下过一次就放弃了，操作太麻烦了）在这个网站下载 PE 工具箱 点我下载PE我都是在这个网站下镜像 点我下载镜像 1、制作 PE 启动盘1.1、去上面的网站下载自己电脑">
+<meta name="twitter:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw3nwznj311y0kl75p.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://enzo-399.cn/重装系统-小白版/"/>
+
+
+
+
+
+  <title>重装系统 (小白版) | Enzo's Home</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <!--自己添加-->
+    <a href="https://github.com/Enzo-399"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Enzo's Home</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/重装系统-小白版/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Enzo 399">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/head.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Enzo's Home">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">重装系统 (小白版)</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-07T00:20:35+08:00">
+                2017-12-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/重装系统/" itemprop="url" rel="index">
+                    <span itemprop="name">重装系统</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/重装系统-小白版/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/重装系统-小白版/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/重装系统-小白版/" class="leancloud_visitors" data-flag-title="重装系统 (小白版)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <hr>
+<p>看到很多人不会重装系统，然后让我装的话我也没时间，写篇博客吧，下次可以直接丢链接了。/滑稽<br>在这里首先要感谢 I Tell You 的站长，不知道他在这个网站有没有赚钱，但是确实是一直在维护，当然你如果介意可以去官网下原版镜像。（官网下过一次就放弃了，操作太麻烦了）<br>在这个网站下载 PE 工具箱 <a href="http://www.wepe.com.cn/download.html" target="_blank" rel="noopener">点我下载PE</a><br>我都是在这个网站下镜像 <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">点我下载镜像</a></p>
+<h3 id="1、制作-PE-启动盘"><a href="#1、制作-PE-启动盘" class="headerlink" title="1、制作 PE 启动盘"></a>1、制作 PE 启动盘</h3><h4 id="1-1、去上面的网站下载自己电脑对应版本的-PE"><a href="#1-1、去上面的网站下载自己电脑对应版本的-PE" class="headerlink" title="1.1、去上面的网站下载自己电脑对应版本的 PE"></a>1.1、去上面的网站下载自己电脑对应版本的 PE</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw3nwznj311y0kl75p.jpg" alt="">我电脑是64位的所以下了64位的，点击下载后会跳出来一个百度云链接，下载就好</p>
+<p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw4og75j311u0ko0tx.jpg" alt=""></p>
+<h4 id="1-2、下载成功后，双击执行，会出现下面的界面-（记得选择装进-U-盘）"><a href="#1-2、下载成功后，双击执行，会出现下面的界面-（记得选择装进-U-盘）" class="headerlink" title="1.2、下载成功后，双击执行，会出现下面的界面 （记得选择装进 U 盘）"></a>1.2、下载成功后，双击执行，会出现下面的界面 （记得选择装进 U 盘）</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw5ro5oj30fk09q3yw.jpg" alt=""></p>
+<h4 id="1-3、这一步全都默认就可以了-（因为会格式化-U-盘，所以记得备份-U-盘数据）"><a href="#1-3、这一步全都默认就可以了-（因为会格式化-U-盘，所以记得备份-U-盘数据）" class="headerlink" title="1.3、这一步全都默认就可以了 （因为会格式化 U 盘，所以记得备份 U 盘数据）"></a>1.3、这一步全都默认就可以了 （因为会格式化 U 盘，所以记得备份 U 盘数据）</h4><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw6cdlfj30fy0a4my9.jpg" alt=""></p>
+<h4 id="1-4、然后开始安装"><a href="#1-4、然后开始安装" class="headerlink" title="1.4、然后开始安装"></a>1.4、然后开始安装</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw72rtwj30fy0a43zl.jpg" alt=""></p>
+<h4 id="1-5、出现这个界面就是安装完成了"><a href="#1-5、出现这个界面就是安装完成了" class="headerlink" title="1.5、出现这个界面就是安装完成了"></a>1.5、出现这个界面就是安装完成了</h4><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw7ia5pj30fy0a4dgn.jpg" alt=""></p>
+<h3 id="2、下载-Windows-镜像"><a href="#2、下载-Windows-镜像" class="headerlink" title="2、下载 Windows 镜像"></a>2、下载 Windows 镜像</h3><h4 id="2-1、上面网址已经给了，只需要去操作系统里面找到你想要的版本"><a href="#2-1、上面网址已经给了，只需要去操作系统里面找到你想要的版本" class="headerlink" title="2.1、上面网址已经给了，只需要去操作系统里面找到你想要的版本"></a>2.1、上面网址已经给了，只需要去<code>操作系统</code>里面找到你想要的版本</h4><p>我这里选的win10，中文版<br><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazvz0949j311y0lcdl7.jpg" alt=""><br><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fmazw05yy5j311y0lcn11.jpg" alt="">将图片里面红框里面的链接全部复制到迅雷里面就能下载了</p>
+<h4 id="2-2、下载完成之后是一个-ISO-的文件，将它解压出来，放到-U-盘里面"><a href="#2-2、下载完成之后是一个-ISO-的文件，将它解压出来，放到-U-盘里面" class="headerlink" title="2.2、下载完成之后是一个 ISO 的文件，将它解压出来，放到 U 盘里面"></a>2.2、下载完成之后是一个 ISO 的文件，将它解压出来，放到 U 盘里面</h4><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw1kmcrj303205q3yw.jpg" alt=""><br>解压完里面有这些东西<br><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw2lhgzj30k906ewes.jpg" alt=""></p>
+<h4 id="2-3、重启电脑，选择从-U-盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是-F12"><a href="#2-3、重启电脑，选择从-U-盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是-F12" class="headerlink" title="2.3、重启电脑，选择从 U 盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是 F12"></a>2.3、重启电脑，选择从 U 盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是 <code>F12</code></h4><hr>
+<h3 id="3、从-U-盘启动后就来到了这个界面"><a href="#3、从-U-盘启动后就来到了这个界面" class="headerlink" title="3、从 U 盘启动后就来到了这个界面"></a>3、从 U 盘启动后就来到了这个界面</h3><p><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fmazvyib48j31dn0q7aby.jpg" alt="">这里面可以分区，备份，装系统什么的，可以自己试着搞一下，我只讲讲分区和装系统吧</p>
+<h2 id="注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉-C-盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！"><a href="#注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉-C-盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！" class="headerlink" title=" 注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉 C 盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！"></a> 注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉 C 盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！</h2><h4 id="3-1、打开桌面上的-分区工具DiskGenius，进到这个界面"><a href="#3-1、打开桌面上的-分区工具DiskGenius，进到这个界面" class="headerlink" title="3.1、打开桌面上的 分区工具DiskGenius，进到这个界面"></a>3.1、打开桌面上的 <code>分区工具DiskGenius</code>，进到这个界面</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazvzor0yj30qu0lhwhk.jpg" alt=""></p>
+<h4 id="3-2、点上面的快速分区进入到这个界面"><a href="#3-2、点上面的快速分区进入到这个界面" class="headerlink" title="3.2、点上面的快速分区进入到这个界面"></a>3.2、点上面的快速分区进入到这个界面</h4><p><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fmbhf52soxj30i70c23zg.jpg" alt="">我一般选择 3 个分区，C盘分 100 GB ，你可以按自己的习惯来，其它选项默认就好</p>
+<h4 id="3-3、点完确定就会快速分区了，再说一遍，数据无价！"><a href="#3-3、点完确定就会快速分区了，再说一遍，数据无价！" class="headerlink" title="3.3、点完确定就会快速分区了，再说一遍，数据无价！"></a>3.3、点完确定就会快速分区了，再说一遍，数据无价！</h4><h4 id="3-4、不管有没有重新分区，下面开始重装系统了，打开桌面上的-Windows-安装器，进入到这个界面"><a href="#3-4、不管有没有重新分区，下面开始重装系统了，打开桌面上的-Windows-安装器，进入到这个界面" class="headerlink" title="3.4、不管有没有重新分区，下面开始重装系统了，打开桌面上的 Windows 安装器，进入到这个界面"></a>3.4、不管有没有重新分区，下面开始重装系统了，打开桌面上的 <code>Windows 安装器</code>，进入到这个界面</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw25plpj30g70efab3.jpg" alt=""></p>
+<h4 id="3-5、选择包含-Windows-安装文件的文件夹点击选择会跳出来让你找到-install-wim-这个文件，去U盘里面sources文件夹下找到它并选中然后点击打开"><a href="#3-5、选择包含-Windows-安装文件的文件夹点击选择会跳出来让你找到-install-wim-这个文件，去U盘里面sources文件夹下找到它并选中然后点击打开" class="headerlink" title="3.5、选择包含 Windows 安装文件的文件夹点击选择会跳出来让你找到 install.wim 这个文件，去U盘里面sources文件夹下找到它并选中然后点击打开"></a>3.5、<code>选择包含 Windows 安装文件的文件夹</code>点击选择会跳出来让你找到 <code>install.wim</code> 这个文件，去U盘里面<code>sources</code>文件夹下找到它并<code>选中</code>然后点击<code>打开</code></h4><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1fmazw384exj30z70fxjsn.jpg" alt=""></p>
+<h4 id="3-6、选择引导驱动器和安装磁盘位置都选-C-盘，其余选项默认"><a href="#3-6、选择引导驱动器和安装磁盘位置都选-C-盘，其余选项默认" class="headerlink" title="3.6、选择引导驱动器和安装磁盘位置都选 C 盘，其余选项默认"></a>3.6、<code>选择引导驱动器</code>和<code>安装磁盘位置</code>都选 C 盘，其余选项默认</h4><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fmazw49kpoj30g60eigmy.jpg" alt=""></p>
+<h4 id="3-7、优化调整里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个显示已知类型文件扩展名、在桌面上显示我的桌面图标和启动到桌面"><a href="#3-7、优化调整里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个显示已知类型文件扩展名、在桌面上显示我的桌面图标和启动到桌面" class="headerlink" title="3.7、优化调整里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个显示已知类型文件扩展名、在桌面上显示我的桌面图标和启动到桌面"></a>3.7、<code>优化调整</code>里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个<code>显示已知类型文件扩展名</code>、<code>在桌面上显示我的桌面图标</code>和<code>启动到桌面</code></h4><p><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1fmazw578g3j30i80dhq43.jpg" alt=""><br>注：这个窗口没有确定按钮，选择完之后，直接点右上角的×就行了</p>
+<h4 id="3-8、然后就会返回-3-6那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了"><a href="#3-8、然后就会返回-3-6那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了" class="headerlink" title="3.8、然后就会返回 3.6那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了"></a>3.8、然后就会返回 <code>3.6</code>那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了</h4><p>注：你可能在里面选择了安装完成后重启，但是我每次安装后都不会重启，所以需要自己手动重启</p>
+<blockquote>
+<p>关于重装系统的操作就完成了，大家要敢于去尝试，只是装装新系统的话，不会搞坏电脑的硬件，所以不用怕，大胆去做就好了，迈出了第一步你就会发现，重装系统也没有想象中那么难。</p>
+</blockquote>
+<hr>
+
+      
+    </div>
+    
+    
+    
+
+    
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      </div>
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/系统/" rel="tag"># 系统</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/一切的一切都只剩无奈/" rel="next" title="一切的一切都只剩无奈">
+                <i class="fa fa-chevron-left"></i> 一切的一切都只剩无奈
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/head.jpg"
+                alt="Enzo 399" />
+            
+              <p class="site-author-name" itemprop="name">Enzo 399</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/Enzo-399" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.jianshu.com/u/612d96ca61b8" target="_blank" title="简书">
+                    
+                      <i class="fa fa-fw fa-book"></i>简书</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、制作-PE-启动盘"><span class="nav-text">1、制作 PE 启动盘</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1、去上面的网站下载自己电脑对应版本的-PE"><span class="nav-text">1.1、去上面的网站下载自己电脑对应版本的 PE</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2、下载成功后，双击执行，会出现下面的界面-（记得选择装进-U-盘）"><span class="nav-text">1.2、下载成功后，双击执行，会出现下面的界面 （记得选择装进 U 盘）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-3、这一步全都默认就可以了-（因为会格式化-U-盘，所以记得备份-U-盘数据）"><span class="nav-text">1.3、这一步全都默认就可以了 （因为会格式化 U 盘，所以记得备份 U 盘数据）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-4、然后开始安装"><span class="nav-text">1.4、然后开始安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-5、出现这个界面就是安装完成了"><span class="nav-text">1.5、出现这个界面就是安装完成了</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、下载-Windows-镜像"><span class="nav-text">2、下载 Windows 镜像</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1、上面网址已经给了，只需要去操作系统里面找到你想要的版本"><span class="nav-text">2.1、上面网址已经给了，只需要去操作系统里面找到你想要的版本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2、下载完成之后是一个-ISO-的文件，将它解压出来，放到-U-盘里面"><span class="nav-text">2.2、下载完成之后是一个 ISO 的文件，将它解压出来，放到 U 盘里面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3、重启电脑，选择从-U-盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是-F12"><span class="nav-text">2.3、重启电脑，选择从 U 盘启动，每台电脑选择从U盘启动的快捷键都不一样，可以百度一下，我的是 F12</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、从-U-盘启动后就来到了这个界面"><span class="nav-text">3、从 U 盘启动后就来到了这个界面</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉-C-盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！"><span class="nav-text"> 注：可以不用分区的，只是我习惯性的全盘分区，不分区只会格式化掉 C 盘数据，分区会格式化掉所有盘的数据，分区和装系统前备份好自己的数据，数据无价！！！</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1、打开桌面上的-分区工具DiskGenius，进到这个界面"><span class="nav-text">3.1、打开桌面上的 分区工具DiskGenius，进到这个界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2、点上面的快速分区进入到这个界面"><span class="nav-text">3.2、点上面的快速分区进入到这个界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3、点完确定就会快速分区了，再说一遍，数据无价！"><span class="nav-text">3.3、点完确定就会快速分区了，再说一遍，数据无价！</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-4、不管有没有重新分区，下面开始重装系统了，打开桌面上的-Windows-安装器，进入到这个界面"><span class="nav-text">3.4、不管有没有重新分区，下面开始重装系统了，打开桌面上的 Windows 安装器，进入到这个界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-5、选择包含-Windows-安装文件的文件夹点击选择会跳出来让你找到-install-wim-这个文件，去U盘里面sources文件夹下找到它并选中然后点击打开"><span class="nav-text">3.5、选择包含 Windows 安装文件的文件夹点击选择会跳出来让你找到 install.wim 这个文件，去U盘里面sources文件夹下找到它并选中然后点击打开</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-6、选择引导驱动器和安装磁盘位置都选-C-盘，其余选项默认"><span class="nav-text">3.6、选择引导驱动器和安装磁盘位置都选 C 盘，其余选项默认</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-7、优化调整里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个显示已知类型文件扩展名、在桌面上显示我的桌面图标和启动到桌面"><span class="nav-text">3.7、优化调整里面会有一些帮助你提前设置的选项，我一般选择图片中打钩的三个显示已知类型文件扩展名、在桌面上显示我的桌面图标和启动到桌面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-8、然后就会返回-3-6那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了"><span class="nav-text">3.8、然后就会返回 3.6那个界面，点击下面的开始安装就可以了，等待一会儿，安装就完成了</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Enzo 399</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Enzo-399',
+            repo: 'Enzo-399.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '87d662b538cbc920c8c74994cbf0b527056de9ea',
+            
+                client_id: 'f05826946023dab855dc'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("iOeWdn10oCcRFvMUK5MnHGdS-gzGzoHsz", "UVjkuSSr5FOivQwvgX2cnSl9");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+  
+</body>
+</html>
