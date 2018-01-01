@@ -121,7 +121,7 @@
 
 
 
-  <meta name="keywords" content="Git,乱码," />
+  <meta name="keywords" content="gitignore," />
 
 
 
@@ -132,24 +132,21 @@
 
 
 
-<meta name="description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、">
-<meta name="keywords" content="Git,乱码">
+<meta name="description" content="在 GitHub 上托管项目，一般最好建一个 .gitignore 文件，这不仅是一个好习惯，更可以减轻 GitHub 的服务器压力，也可以防止自己的私密信息泄露。最简单的创建 .gitignore 文件的方法是，在 GitHub 上新建仓库的时候创建，也就是下图这里：可以在它的下面选择或者搜索你所用到的语言，比如选我">
+<meta name="keywords" content="gitignore">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Git 中使用 ping 出现乱码">
-<meta property="og:url" content="http://enzo-399.cn/Git中使用ping出现乱码/index.html">
+<meta property="og:title" content="git用.gitignore详解">
+<meta property="og:url" content="http://enzo-399.cn/git用-gitignore详解/index.html">
 <meta property="og:site_name" content="Enzo&#39;s Home">
-<meta property="og:description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、选中 Text ，修改 Character set 为 GBK 即可。我的之前">
+<meta property="og:description" content="在 GitHub 上托管项目，一般最好建一个 .gitignore 文件，这不仅是一个好习惯，更可以减轻 GitHub 的服务器压力，也可以防止自己的私密信息泄露。最简单的创建 .gitignore 文件的方法是，在 GitHub 上新建仓库的时候创建，也就是下图这里：可以在它的下面选择或者搜索你所用到的语言，比如选我上面选的Java：新建完成后，打开可以看到，它自动生成的代码： # Compi">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg">
-<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m0sn79j30mr0cx3z3.jpg">
-<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m17z6fj30au091mxc.jpg">
-<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m1kdc4j30au0913yo.jpg">
-<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m23qfaj30n70d5wfn.jpg">
-<meta property="og:updated_time" content="2017-11-25T09:13:09.204Z">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fn16jvvuk1j30o00gmwf9.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fn16jw9f7lj309u0fdweo.jpg">
+<meta property="og:updated_time" content="2018-01-01T09:55:38.971Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Git 中使用 ping 出现乱码">
-<meta name="twitter:description" content="因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。 1、在 git 窗口鼠标右键，选择 options 选项 2、选中 Text ，修改 Character set 为 GBK 即可。我的之前">
-<meta name="twitter:image" content="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg">
+<meta name="twitter:title" content="git用.gitignore详解">
+<meta name="twitter:description" content="在 GitHub 上托管项目，一般最好建一个 .gitignore 文件，这不仅是一个好习惯，更可以减轻 GitHub 的服务器压力，也可以防止自己的私密信息泄露。最简单的创建 .gitignore 文件的方法是，在 GitHub 上新建仓库的时候创建，也就是下图这里：可以在它的下面选择或者搜索你所用到的语言，比如选我上面选的Java：新建完成后，打开可以看到，它自动生成的代码： # Compi">
+<meta name="twitter:image" content="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fn16jvvuk1j30o00gmwf9.jpg">
 
 
 
@@ -179,13 +176,13 @@
 
 
 
-  <link rel="canonical" href="http://enzo-399.cn/Git中使用ping出现乱码/"/>
+  <link rel="canonical" href="http://enzo-399.cn/git用-gitignore详解/"/>
 
 
 
 
 
-  <title>Git 中使用 ping 出现乱码 | Enzo's Home</title>
+  <title>git用.gitignore详解 | Enzo's Home</title>
   
 
 
@@ -335,7 +332,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/Git中使用ping出现乱码/">
+    <link itemprop="mainEntityOfPage" href="http://enzo-399.cn/git用-gitignore详解/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Enzo 399">
@@ -352,7 +349,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Git 中使用 ping 出现乱码</h1>
+          <h1 class="post-title" itemprop="name headline">git用.gitignore详解</h1>
         
 
         <div class="post-meta">
@@ -364,8 +361,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-24T14:45:41+08:00">
-                2017-11-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-01T11:12:24+08:00">
+                2018-01-01
               </time>
             
 
@@ -405,8 +402,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/Git中使用ping出现乱码/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/Git中使用ping出现乱码/" itemprop="commentsCount"></span>
+                <a href="/git用-gitignore详解/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/git用-gitignore详解/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -414,7 +411,7 @@
 
           
           
-             <span id="/Git中使用ping出现乱码/" class="leancloud_visitors" data-flag-title="Git 中使用 ping 出现乱码">
+             <span id="/git用-gitignore详解/" class="leancloud_visitors" data-flag-title="git用.gitignore详解">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -446,10 +443,57 @@
 
       
         <hr>
-<p>因为校园网的问题，每次连上之后都要用 ping 试一下是不是连上了，以前都是默认用得 win + R 打开 CMD 来 ping，今天突发奇想想用 git 试一下，结果就出现了下面的情况：<br><br><img src="http://wx2.sinaimg.cn/mw690/005KFv1Tgy1flt7m0cqsyj30n70d5gm2.jpg" alt="1"><br>然后就去百度了一波，最后发现是编码的问题，按下面的步骤改一下就好了。</p>
-<h3 id="1、在-git-窗口鼠标右键，选择-options-选项"><a href="#1、在-git-窗口鼠标右键，选择-options-选项" class="headerlink" title="1、在 git 窗口鼠标右键，选择 options 选项"></a>1、在 git 窗口鼠标右键，选择 options 选项</h3><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m0sn79j30mr0cx3z3.jpg" alt="2"></p>
-<h3 id="2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。"><a href="#2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。" class="headerlink" title="2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。"></a>2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。</h3><p><img src="http://wx1.sinaimg.cn/mw690/005KFv1Tgy1flt7m17z6fj30au091mxc.jpg" alt="3"><br><br>更改之后分别点击 Apply 和 Save 即可：<br><br><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m1kdc4j30au0913yo.jpg" alt="4"></p>
-<h3 id="3、再试一下-ping-："><a href="#3、再试一下-ping-：" class="headerlink" title="3、再试一下 ping ："></a>3、再试一下 ping ：</h3><p><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1flt7m23qfaj30n70d5wfn.jpg" alt="5"></p>
+<p>在 GitHub 上托管项目，一般最好建一个 .gitignore 文件，这不仅是一个好习惯，更可以减轻 GitHub 的服务器压力，也可以防止自己的私密信息泄露。<br>最简单的创建 .gitignore 文件的方法是，在 GitHub 上新建仓库的时候创建，也就是下图这里：<br><img src="http://wx4.sinaimg.cn/mw690/005KFv1Tgy1fn16jvvuk1j30o00gmwf9.jpg" alt="">可以在它的下面选择或者搜索你所用到的语言，比如选我上面选的<code>Java</code>：<br><img src="http://wx3.sinaimg.cn/mw690/005KFv1Tgy1fn16jw9f7lj309u0fdweo.jpg" alt=""><br>新建完成后，打开可以看到，它自动生成的代码：</p>
+<pre><code># Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+ # Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+</code></pre><h5 id="忽略文件的原则是："><a href="#忽略文件的原则是：" class="headerlink" title="忽略文件的原则是："></a>忽略文件的原则是：</h5><blockquote>
+<p> 1.忽略操作系统自动生成的文件，比如缩略图等；</p>
+<p> 2.忽略编译生成的中间文件、可执行文件等，也就是如果一个文件是通过另一个文件自动生成的，那自动生成的文件就没必要放进版本库，比如Java编译产生的.class文件</p>
+<p> 3.忽略你自己的带有敏感信息的配置文件，比如存放口令的配置文件。</p>
+<h5 id="配置语法："><a href="#配置语法：" class="headerlink" title="配置语法："></a>配置语法：</h5><pre><code>以斜杠“/”开头表示目录；
+以星号“*”通配多个字符；
+以问号“?”通配单个字符
+以方括号“[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+</code></pre><p>注：git 对于 .gitignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效；</p>
+<h5 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h5><pre><code>1、folder/*
+</code></pre><p>表示：忽略目录 folder 下的全部内容，不管是根目录下的 /folder/目录，还是某个子目录 /child/folder/ 下的目录，都会省略</p>
+<pre><code>2、/folder/*
+</code></pre><p>表示：忽略根目录 /folder/ 下的全部内容，而某个子目录 /child/folder/ 下的目录不受影响</p>
+<pre><code>3、/*
+!.gitignore
+!/folder/bin/
+!folder/src/
+</code></pre><p>表示：忽略全部内容，但不忽略 .gitignore 文件、根目录 /fplder/bin/ 下的文件、所有目录 fplder/src/ 下的文件</p>
+<pre><code>4、*.a
+</code></pre><p>表示：忽略所有 .a 结尾的文件</p>
+<pre><code>5、doc/*.txt
+</code></pre><p>表示：会忽略 doc/notes.txt 但不包括 doc/server/arch.txt</p>
+</blockquote>
+<hr>
+<p>如果项目已经上传到了 GitHub 上面，而没有加 .gitignore 文件怎么办呢？请<a href="/git添加-gitignore文件后不起作用">移步这里</a></p>
+<blockquote>
+<p>参考：</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000</a></p>
+<p><a href="https://www.cnblogs.com/kevingrace/p/5690241.html" target="_blank" rel="noopener">https://www.cnblogs.com/kevingrace/p/5690241.html</a></p>
+</blockquote>
 <hr>
 
       
@@ -479,9 +523,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Git/" rel="tag"># Git</a>
-          
-            <a href="/tags/乱码/" rel="tag"># 乱码</a>
+            <a href="/tags/gitignore/" rel="tag"># gitignore</a>
           
         </div>
       
@@ -494,8 +536,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/A+B for Input-Output Practice (VIII) /" rel="next" title="A+B for Input-Output Practice (VIII)">
-                <i class="fa fa-chevron-left"></i> A+B for Input-Output Practice (VIII)
+              <a href="/git用-gitignore忽略指定文件/" rel="next" title="git用.gitignore忽略指定文件">
+                <i class="fa fa-chevron-left"></i> git用.gitignore忽略指定文件
               </a>
             
           </div>
@@ -504,8 +546,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/Hexo-关闭文章评论/" rel="prev" title="Hexo 关闭文章评论">
-                Hexo 关闭文章评论 <i class="fa fa-chevron-right"></i>
+              <a href="/git添加-gitignore文件后不起作用/" rel="prev" title="git添加.gitignore文件后不起作用">
+                git添加.gitignore文件后不起作用 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -665,7 +707,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、在-git-窗口鼠标右键，选择-options-选项"><span class="nav-text">1、在 git 窗口鼠标右键，选择 options 选项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、选中-Text-，修改-Character-set-为-GBK-即可。我的之前是-UTF-8-格式。"><span class="nav-text">2、选中 Text ，修改 Character set 为 GBK 即可。我的之前是 UTF-8 格式。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、再试一下-ping-："><span class="nav-text">3、再试一下 ping ：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#忽略文件的原则是："><span class="nav-text">忽略文件的原则是：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#配置语法："><span class="nav-text">配置语法：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#示例："><span class="nav-text">示例：</span></a></li></ol></div>
             
 
           </div>
